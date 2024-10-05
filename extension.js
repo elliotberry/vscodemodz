@@ -19,7 +19,7 @@ const readdirAsync = promisify(fs.readdir);
 const { window, Range } = vscode;
 
 function activate(context) {
-  var disposable = vscode.commands.registerCommand('extension.vscodeMod', vscodemod);
+  var disposable = vscode.commands.registerCommand('extension.vscodeModz', vscodemod);
   context.subscriptions.push(disposable);
 }
 exports.activate = activate;
