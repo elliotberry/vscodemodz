@@ -1,9 +1,10 @@
 {
   "name": "vscodemod",
   "displayName": "vscodemod",
-  "description": "Run code modifications on selected code",
+
   "version": "1.0.0",
-  "publisher": "mikaelbr",
+  "description": "a couple of misc codemods for fun and profit",
+  "publisher": "nehima",
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -33,9 +34,9 @@
     "changelog": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0"
   },
   "devDependencies": {
-    "@vscode/vsce": "^3.1.1",
+    "@vscode/vsce": "^3.2.0",
     "esbuild": "^0.24.0",
-    "eslint": "^9.12.0",
+    "eslint": "^9.13.0",
 
     "vsce": "^2.15.0",
     "vscode": "^1.1.37"
